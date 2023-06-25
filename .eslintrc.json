@@ -1,3 +1,7 @@
 {
-  "extends": "react-app"
+  "extends": "react-app",
+  "rules": {
+    "react/forbid-prop-types": 0,
+    "no-unused-vars": "off"
+  }
 }
